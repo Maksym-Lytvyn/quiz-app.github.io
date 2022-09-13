@@ -1,0 +1,71 @@
+body {
+    background-color: blueviolet;
+}
+
+.quiz-app {
+    background-color: darkblue;
+    height: 75rem;
+    width: 32rem;
+    border-radius: 1rem;
+    color: aliceblue;
+    margin-left: 35%;
+}
+.headline {
+    text-align: center;
+}
+.score-centered {
+    text-align: center;
+}
+
+button {
+    border: 3px grey groove;
+    border-radius: 1rem;
+    list-style-type: none;
+    width: 40%;
+    font-weight: 500;
+    display: block;
+}
+button:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+.submit {
+    border: 3px grey groove;
+    border-radius: 1rem;
+    background-color: burlywood;
+    list-style-type: none;
+    width: 70%;
+    height: 4%;
+    margin-left: 12%;
+    font-weight: 500;
+    display: block;
+}
+.submit:hover {
+    background-color: rgb(18, 255, 18);
+}
+
+.right {
+    background-color: rgb(18, 255, 18);
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: 500;
+    width: 40%;
+    font-weight: 500;
+    color: purple;
+    width: 40%;
+    font-weight: 500;
+}
+
+.wrong {
+    background-color: red;
+}
+.hidden {
+    display: none;
+}
+.score-hidden {
+    display: none;
+}
+
+.refresh-btn {
+    width: 100%;
+}
